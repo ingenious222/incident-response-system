@@ -1,0 +1,67 @@
+# Python-specific ignores
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Ruby files (exclude from Python repo)
+*.rb
+Gemfile
+Gemfile.lock
+.bundle/
+
+# Data files (optional - include if you want to exclude)
+incidents.json
+incident_log.txt
+
+# Other project files to exclude
+createIncident()
+incident-core-api/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
