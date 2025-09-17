@@ -10,6 +10,9 @@ A Python-based incident management system with AI-powered analysis capabilities.
 - **REST API**: Complete API for integrations
 - **Real-time Insights**: Dashboard with analytics and trends
 
+  <img width="3840" height="1642" alt="Screenshot 2025-09-18 015930" src="https://github.com/user-attachments/assets/16b39358-16cf-49a2-9f12-1122289b1223" />
+
+
 ## 📦 Installation
 
 1. **Clone the repository**
