@@ -8,6 +8,13 @@ build/
 develop-eggs/
 dist/
 downloads/
+
+# Large files and recordings
+*.mp4
+*.avi
+*.mov
+*.mkv
+Recording*.mp4
 eggs/
 .eggs/
 lib/
