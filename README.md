@@ -14,7 +14,7 @@ A Python-based incident management system with AI-powered analysis capabilities.
 
 1. **Clone the repository**
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/ingenious222/incident-response-system.git
    cd incident-response-system
    ```
 
@@ -69,8 +69,8 @@ python project.py
 Set environment variables for AI services:
 
 ```bash
-export AI_API_URL="https://openrouter.ai/api/v1/chat/completions"
-export AI_MODEL="x-ai/grok-3.5" 
+export AI_API_URL="<any AI URL>"
+export AI_MODEL="<any model you like>" 
 export AI_API_KEY="your-api-key"
 ```
 
