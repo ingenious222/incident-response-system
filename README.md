@@ -69,8 +69,8 @@ python project.py
 Set environment variables for AI services:
 
 ```bash
-export AI_API_URL="https://openrouter.ai/api/v1/chat/completions"
-export AI_MODEL="x-ai/grok-3.5" 
+export AI_API_URL="<any AI URL>"
+export AI_MODEL="<any model you like>" 
 export AI_API_KEY="your-api-key"
 ```
 
