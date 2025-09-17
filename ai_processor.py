@@ -10,9 +10,9 @@ class AIProcessor:
     
     def __init__(self):
         self.ai_config = {
-            'api_url': os.getenv('AI_API_URL', 'https://openrouter.ai/api/v1/chat/completions'),
-            'model': os.getenv('AI_MODEL', 'x-ai/grok-3.5'),
-            'api_key': os.getenv('AI_API_KEY', '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')
+            'api_url': os.getenv('AI_API_URL', '<AI url u r using>'),
+            'model': os.getenv('AI_MODEL', '<Any Model u need to use>'),
+            'api_key': os.getenv('AI_API_KEY', '<Your API Key>')
         }
     
     def analyze_incident(self, description: str) -> Dict[str, Any]:
